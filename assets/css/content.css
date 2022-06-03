@@ -1,0 +1,38 @@
+.content {
+    width: 800px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.button {
+    border-width: 2px;
+    border-color: #003399;
+    color: #003399;
+    background-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-width: 2px;
+    border-color: #003399;
+    color: #ffffff;
+    background-color: #003399;
+}
+
+
+#submit:active {
+    background-color: #06b;
+    }
+    
+    
+
+    #submit:disabled {
+    background-color: #808080;
+    }
