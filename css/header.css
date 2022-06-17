@@ -1,0 +1,40 @@
+.header {
+    background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px 100px 30px 100px;
+    position: sticky;
+    top: 0;
+
+} 
+
+.logo {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0032a0 !important;
+    text-decoration: none;
+
+    
+}
+
+.socialicons {
+    width: 35px;
+    float: right;
+    padding: 5px;
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+   .header {
+       padding: 30px 5px 30px 5px;
+   }
+
+   .socialicons {
+    width: 30px;
+    padding: 3px;
+
+
+}
+
+}

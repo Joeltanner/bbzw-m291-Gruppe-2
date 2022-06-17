@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JONES&JACK</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="logo">
+      
+      <a href="index.html">JONES&JACK</a>
+
+      <a href="https://www.instagram.com">
+        <img src="assets/img/5282544_camera_instagram_social media_social network_instagram logo_icon.svg" class="socialicons">      
+      </a>
+      <a href="https://www.facebook.com">
+        <img src="assets/img/5282541_fb_social media_facebook_facebook logo_social network_icon.svg" class="socialicons">      
+      </a>
+      <a href="https://www.twitter.com">
+        <img src="assets/img/5282551_tweet_twitter_twitter logo_icon.svg" class="socialicons">      
+      </a>
+      <a href="https://www.linkedin.com">
+        <img src="assets/img/5282542_linkedin_network_social network_linkedin logo_icon.svg" class="socialicons">      
+      </a>
+   
+    </div>
+
+  </header>
+
+  <div class="content content-game">
+
+
+
+    <div class="gameRow gameInfo">
+      <h2>Gewinne tolle Gutscheine!</h2>
+      <p>Sammle Hemden und weiche den Paketen auf dem Förderband aus.<br>Hast du 5 Hemden gesammelt, senden wir dir einen Gutschein für den Shop zu. Versuche jetzt dein Glück!</p>
+    </div>
+
+
+    <div id="game">
+      <div class="startScreen" id="startScreen">
+        <div class="startScreenText">
+          Klicken Sie, um das Spiel zu starten.
+        </div>
+      </div>
+
+      <div id="background"></div>
+      <div id="dino"></div>
+      <div id="rock"></div>
+      <div id="goodie"></div>
+    </div>
+
+    
+    <div class="gameRow score" id="score">0</div>
+
+    <div class="gameRow highscore">
+      Highscore <span id="highscore-value">0</span>
+    </div> 
+
+    <div class="gameRow">Hemden: <span id="goodies-value">0</span></div>
+
+    <div class="gameRow gameOver" id="gameOver">
+      Glückwunsch! <a href="GameOver.html">Hier</a> kannst du deinen Gewinn abholen.<br>
+    </div>
+
+
+
+  </div>
+
+  <footer class="footer">
+
+    <div class="container">
+ 
+       <section class="section-boxen">
+ 
+         <div class="div60">
+           <p>
+             JONES&JACK GmbH<br>
+             Beispielstrasse 14<br>
+             9999 Musterlingen<br><br>
+             <a href="mailto:info@jonesandjack.com">info@jonesandjack.com</a><br>
+             <a href="tel:+41414858585">041 485 85 85</a>
+           </p>
+         </div>
+ 
+         <div class="div40 textallignright">
+           <p><a href="#">Impressum</a> | <a href="#">Kontakt</a></p>
+         </div>
+ 
+       </section>
+   
+     </div>
+     
+  </footer>
+
+
+  <script src="javascript/game.js"></script>
+</body>
+
+</html>

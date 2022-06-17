@@ -1,0 +1,178 @@
+.content-game {
+  min-height: 600px;
+  font-size: 1.5rem;
+}
+
+#game {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  border: 2px solid black;
+  margin: auto;
+}
+
+
+#dino {
+  height: 90px;
+  width: 110px;
+  top: 190px;
+  position: relative;
+  background-image: url("../assets/LOElement\ 1Wagen.svg");
+  background-size: cover;
+}
+
+.dino-dies {
+  background-image: url("../assets/LOElement\ 1Wagen_rot.svg") !important;
+}
+
+.dino-collects {
+  background-image: url("../assets/LOElement\ 1Wagen_blau.svg") !important;
+}
+
+#rock {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 140px;
+  left: 550px;
+  background-image: url("../assets/LOElement\ 2Paeckli.svg");
+  background-size: cover;
+}
+
+.rock-animation {
+  animation: rock 1.4s infinite linear;
+}
+
+@keyframes rock {
+  0% {
+    left: 550px;
+  }
+
+  100% {
+    left: -50px;
+  }
+}
+
+#goodie {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 60px;
+  left: 500px;
+  background-image: url("../assets/Shirt.png");
+  background-size: cover;
+}
+
+.goodie-animation {
+  animation: goodie1 3.33s infinite linear;
+}
+
+@keyframes goodie1 {
+  0% {
+    left: 500px;
+    top: 85px;
+  }
+
+  100% {
+    left: -50px;
+    top: 85px;
+  }
+}
+
+@keyframes goodie2 {
+  0% {
+    left: 500px;
+    top: 110px;
+  }
+
+  100% {
+    left: -50px;
+    top: 110px;
+  }
+}
+
+@keyframes goodie3 {
+  0% {
+    left: 500px;
+    top: 140px;
+  }
+
+  100% {
+    left: -50px;
+    top: 140px;
+  }
+}
+
+.jump-animation {
+  animation: jump 0.7s cubic-bezier(0.435, 0.015, 0.300, 0.935);
+}
+
+@keyframes jump {
+  0% {
+    top: 190px;
+  }
+
+  50% {
+    top: 50px;
+  }
+
+  100% {
+    top: 190px;
+  }
+}
+
+
+
+#background {
+  position: absolute;
+  top: 100px;
+  width: 600px;
+  height: 300px;
+  background-image: url("../assets/Band.svg");
+  background-size: cover;
+}
+
+.bg-animation {
+  animation: moveBg 30s linear infinite;
+}
+
+@keyframes moveBg {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: -3197.1927px 0;
+  }
+}
+
+
+.gameRow {
+  text-align: center;
+  margin-top: 20px;
+  padding: 8px;
+}
+
+.gameOver {
+  display: none;
+}
+
+.startScreen {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  opacity: 0.7;
+  background: black
+}
+
+.startScreenText {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  text-align: center;
+  color: white;
+
+
+}
